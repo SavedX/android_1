@@ -16,18 +16,6 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="93dp" />
 
-    <!--<EditText-->
-        <!--android:id="@+id/input_text"-->
-        <!--android:layout_width="160dp"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_above="@+id/hello_world"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:layout_marginBottom="40dp"-->
-        <!--android:maxLines="1"-->
-        <!--android:inputType="text"-->
-        <!--android:hint="addad"-->
-        <!--/>-->
-
     <Button
         android:id="@+id/btnShow"
         android:layout_width="160dp"
@@ -38,7 +26,6 @@
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="179dp" />
 
-
     <Button
         android:id="@+id/btnClear"
         android:layout_width="160dp"
@@ -47,6 +34,5 @@
         android:layout_below="@+id/btnShow"
         android:layout_marginTop="29dp"
         android:text="@string/Execute" />
-
 
 </RelativeLayout>
